@@ -7,7 +7,7 @@ def parsePhoto(photoline, id):
     if linelist[0] == 'H':
         isHorizontal = True
     tags = set(linelist[2:])
-    return Photo(id, tags, isHorizontal)
+    return Photo(id, isHorizontal, tags)
 
 
 def parseCollection(filename):

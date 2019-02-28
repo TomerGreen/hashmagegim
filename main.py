@@ -7,8 +7,8 @@ class Photo:
         self.tags = tags
 
 class Slide:
-    def __init__(self, ids, is_horizontal, tags):
-        self.ids = ids
+    def __init__(self, photo_ids, is_horizontal, tags):
+        self.photo_ids = photo_ids
         self.is_horizontal = is_horizontal
         self.tags = tags
 
